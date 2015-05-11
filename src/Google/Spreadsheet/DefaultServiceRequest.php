@@ -191,7 +191,7 @@ class DefaultServiceRequest implements ServiceRequestInterface
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_FOLLOWLOCATION => 0,
             CURLOPT_FAILONERROR => false,
-            CURLOPT_SSL_VERIFYPEER => true,
+            CURLOPT_SSL_VERIFYPEER => false,
             CURLOPT_VERBOSE => false,
         );
 
